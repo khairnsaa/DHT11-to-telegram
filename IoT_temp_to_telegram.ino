@@ -9,12 +9,12 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 // Initialize Wifi connection to the router
-const char* ssid = "CAMAR-FIBER";
-const char* password = "camar15221";
+const char* ssid = "masukkan nama wifi";
+const char* password = "masukkan password wifi nya";
 
 
 // Initialize Telegram BOT
-#define BOTtoken "1455326728:AAHVVBToTPOTwzf2BNCy1iNkVpqjCJJzSZ0" // diisi Token Bot (Dapat dari Telegram Botfather)
+#define BOTtoken "XXXXXX:YYYYYYYYYYYYY" // diisi Token Bot (Dapat dari Telegram Botfather)
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
